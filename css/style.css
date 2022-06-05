@@ -443,12 +443,16 @@ h6 {
 
 .services {
    display: flex;
-   flex-wrap: wrap ;
+   justify-content: space-between; 
+
+   width: 100%;    
 
 }
 
 .services__item {
-   flex: 1 1 0;
+   flex: 1 1 0 ;
+   width: calc(33%-20px);
+   margin: 0 10px;  
 
    padding: 0px 65px;
    position: relative;
