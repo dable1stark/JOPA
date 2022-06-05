@@ -15,13 +15,13 @@ body {
 
 ::-webkit-scrollbar track {
    background: #dddddddd;
-   
+
 }
 
- ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
    background: #f38181;
 
- }
+}
 
 *,
 *:after,
@@ -443,27 +443,26 @@ h6 {
 
 .services {
    display: flex;
-   justify-content: space-between; 
+   justify-content: space-between;
 
-   width: 100%;    
+   width: 100%;
+
 
 }
 
 .services__item {
-   flex: 1 1 0 ;
+   display: flex;
    width: calc(33%-20px);
-   margin: 0 10px;  
+   margin: 0 10px;
 
-   padding: 0px 65px;
    position: relative;
 
 }
 
 .services__icon {
-   position: absolute;
-
    width: 30px;
    height: 30px;
+   margin: 0 0 20px 0;
 
    top: 0px;
    left: 28px;
@@ -485,6 +484,21 @@ h6 {
    color: #999;
 
 }
+
+/*Liner*/
+
+.liner {
+   margin-bottom: 50px;
+   margin-top: 50px;
+
+   width: 100%;
+   height: 1px;
+   background-color: #e5e5e5;
+}
+
+/*Vova*/
+
+.vova {}
 
 /*Devices*/
 
