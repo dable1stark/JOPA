@@ -37,7 +37,6 @@ h6 {
 /*Container*/
 
 .container {
-   width: 100%;
    max-width: 1230px;
    padding: 0 15px;
    margin: 0 auto;
@@ -67,7 +66,7 @@ h6 {
 }
 
 .intro__title {
-   font-family: 'Montserrat';
+   font-family: 'Montserrat', serif;
    font-size: 120px;
    font-weight: 700;
    text-transform: uppercase;
@@ -102,9 +101,9 @@ h6 {
    width: 100%;
    padding-top: 30px;
    position: absolute;
-   top: 0%;
-   left: 0%;
-   right: 0%;
+   top: 0;
+   left: 0;
+   right: 0;
    z-index: 1;
 }
 
@@ -132,7 +131,7 @@ h6 {
 .nav__link {
    display: inline-block;
    vertical-align: top;
-   margin: 0% 17px;
+   margin: 0 17px;
    position: relative;
 
    color: #fff;
@@ -152,7 +151,7 @@ h6 {
 
    position: absolute;
    top: 100%;
-   left: 0%;
+   left: 0;
    z-index: 1;
    transition: opacity .2s linear;
 }
@@ -325,7 +324,7 @@ h6 {
 }
 
 .card__item {
-   width: 380px;
+   width: 30%;
 }
 
 .card__iner {
@@ -347,7 +346,6 @@ h6 {
 
 .card__img {
    background: linear-gradient(to bottom, #f38181, #fce38a);
-   transform: transform .2s liner;
 }
 
 .card__img img {
@@ -359,14 +357,14 @@ h6 {
    width: 100%;
    font-size: 18px;
    color: #fff;
-   transform: uppercase;
+   text-transform: uppercase;
    font-weight: 700;
    text-align: center;
    opacity: 0;
 
    position: absolute;
    top: 50%;
-   left: 0%;
+   left: 0;
    z-index: 2;
    transform: translate3d(0, -50%, 0);
 
@@ -442,7 +440,7 @@ h6 {
 
 .services__item {
    display: flex;
-   width: calc(33%-20px);
+   width: calc( 33% - 20px );
    margin: 0 10px;
 
    position: relative;
@@ -453,7 +451,7 @@ h6 {
    height: 30px;
    margin: 0 10px 20px 0;
 
-   top: 0px;
+   top: 0;
    left: 28px;
    z-index: 1;
 }
@@ -512,7 +510,7 @@ h6 {
 
 .wedo {
    display: flex;
-   margin: 0 80px;
+   margin: 0 0;
 }
 
 .wedo__item {
@@ -520,8 +518,6 @@ h6 {
 }
 
 .men {
-   width: 590px;
-   height: 345px;
    display: block;
 }
 
@@ -642,7 +638,7 @@ h6 {
 }
 
 .reviews__btn {
-   font-size: 0px;
+   font-size: 0;
    color: transparent;
 
    position: absolute;
@@ -1165,7 +1161,7 @@ h6 {
 
 .instagram__item {
    width: 32.33333%;
-   border-bottom: 5px solid #fff;
+   border: 5px solid #fff;
 }
 
 .instagram__img {
@@ -1179,7 +1175,7 @@ h6 {
 
    border-top: 1px solid #e5e5e5;
 
-   font-style: 14px;
+   font-size: 14px;
    color: #333;
    text-align: center;
 }
